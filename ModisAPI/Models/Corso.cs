@@ -13,5 +13,6 @@ namespace ModisAPI.Models
         public int DurataInOre { get; set; }
         public int Livello { get; set; }
         public int NumeroMassimoPartecipanti { get; set; }
+        public List<StudenteCorso> StudenteCorsi { get; set; }
     }
 }
